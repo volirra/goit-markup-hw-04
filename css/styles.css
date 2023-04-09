@@ -162,7 +162,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./images/hero-bg.jpg);
+    url(../images/hero-bg.jpeg);
   background: no-repeat;
   background-position: center;
   background-size: cover;
@@ -368,13 +368,24 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .container-customers {
-  display: flex;
 }
+
 .customers-item {
-   display: flex;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var();
 }
+
 .customers-list {
+   display: flex;
+   width: ;
+   height: ;
 }
 .list {
 }
