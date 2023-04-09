@@ -157,13 +157,13 @@ body {
 
 .hero {
   text-decoration: none;
-  background: var(--color-footer);
+  background-color: var(--color-footer);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg.jpeg);
-  background: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -216,9 +216,6 @@ body {
   padding-bottom: 120px;
 }
 
-.hidden {
-}
-
 .description-list {
   display: flex;
   gap: 24px;
@@ -237,6 +234,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-footer);
+  margin-top: 8px;
 }
 
 .description-text {
@@ -245,6 +243,23 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-address);
   margin-top: 8px;
+}
+
+.description-icon {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background: #F4F4FD;
+ border-radius: 4px;
+}
+ 
+.description-icon-link {
+
+}
+.description-item-icon {
 }
 
 /*-----Work-----*/
@@ -281,8 +296,6 @@ body {
   padding-bottom: 120px;
 }
 
-.team-container {
-}
 .team-list {
   display: flex;
   gap: 24px;
@@ -338,8 +351,8 @@ body {
 }
 
 .team-soc-item {
-  width: 40px;
-  height: 40px;
+  width: 16px;
+  height: 16px;
 }
 
 .team-soc-link {
@@ -354,7 +367,7 @@ body {
 
 .team-soc-link:hover,
 :focus {
-  background-color: teal;
+  background-color: rgb(202, 55, 200);
 }
 
 .team-soc-icon {
@@ -372,28 +385,36 @@ body {
 .container-customers {
 }
 
-.customers-item {
+.customers-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var();
+color: var(-color-footer);
+margin-bottom: 72px;
 }
 
 .customers-list {
-   display: flex;
-   width: ;
-   height: ;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+   
 }
-.list {
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
 }
-.customers-soc-iteam {
-}
-.customers-soc-link {
-}
-.link {
+.customers-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  fill: #8E8F99;
 }
 .customers-compani {
 }
@@ -455,6 +476,19 @@ color: var();
 .item {
   list-style: none;
   text-decoration: none;
+}
+
+.footer-soc-list {
+}
+.list {
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.link {
+}
+.footer-soc-icon {
 }
 
 /*-----Portfolio-----*/
