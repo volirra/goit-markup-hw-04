@@ -231,7 +231,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-footer);
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .description-text {
@@ -256,6 +256,7 @@ body {
   height: 64px;
   align-items: center;
   justify-content: center;
+  margin: 24px 100px 24px 100px;
 }
 
 /*-----Work-----*/
