@@ -401,6 +401,7 @@ margin-bottom: 72px;
 
 .customers-list {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 16px;
    
@@ -419,7 +420,18 @@ margin-bottom: 72px;
   align-items: center;
   fill: #8E8F99;
 }
-.customers-compani {
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
+.customers-link:is(hover, :focus){
+  border: 1px colid #404bbf;
+}
+
+.customers-link:is(hover, :focus) .customers-icon{
+  fill: #404bbf;
 }
 
 /*-----Footer-----*/
@@ -474,7 +486,7 @@ margin-bottom: 72px;
   text-decoration: none;
 }
 
-.footer-social {
+.footer-soc {
   display: flex;
 }
 
@@ -483,11 +495,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #fff;
 }
 
 .footer-soc-item {
-  width: 16px;
-  height: 16px;
+  width: 40px;
+  height: 40px;
 }
 .footer-soc-link {
   display: flex;
@@ -495,6 +508,8 @@ letter-spacing: 0.02em;
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-soc-link:hover,
@@ -503,7 +518,9 @@ background-color: ;
 }
 
 .footer-soc-icon {
+  display: flex;
   fill: #fff;
+  background-position: center;
 }
 
 /*-----Portfolio-----*/
