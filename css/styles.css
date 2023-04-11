@@ -417,7 +417,8 @@ margin-bottom: 72px;
   fill: #8E8F99;
 }
 
-.customers-link:is(hover, :focus){
+.customers-link:hover, 
+.customers-link:focus{
   border-color: 1px colid #404bbf;
   fill: #404bbf;
 }
