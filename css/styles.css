@@ -55,7 +55,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 /*-----Header-----*/
 
@@ -170,6 +169,8 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
+  margin-left: auto;
+  margin-left: auto;
 }
 
 .hero-title {
@@ -243,6 +244,7 @@ body {
 }
 
 .description-container-icon {
+  display: flex;
   width: 264px;
   height: 112px;
   align-items: center;
@@ -256,7 +258,6 @@ body {
   height: 64px;
   align-items: center;
   justify-content: center;
-  margin: 24px 100px 24px 100px;
 }
 
 /*-----Work-----*/
@@ -349,8 +350,8 @@ body {
 }
 
 .team-soc-item {
-  width: 16px;
-  height: 16px;
+  width: 40px;
+  height: 40px;
 }
 
 .team-soc-link {
@@ -411,23 +412,14 @@ margin-bottom: 72px;
   height: 100%;
   justify-content: center;
   align-items: center;
-  color: #8E8F99;
   border: 1px solid #8E8F99;
   border-radius: 4px;
+  fill: #8E8F99;
 }
 
-.customers-icon {
-  width: 104px;
-  height: 56px;
-  fill: currentColor;
-}
 .customers-link:is(hover, :focus){
   border-color: 1px colid #404bbf;
-  color: #404bbf;
-}
-
-.customers-link:is(hover, :focus) .customers-icon{
-  fill:  #404BBF;
+  fill: #404bbf;
 }
 
 /*-----Footer-----*/
@@ -519,7 +511,8 @@ gap: 16px;
 
 .footer-soc-link:hover,
 :focus {
-background-color: ;
+background-color: #31d031aa;
+fill: var(--color-cloud);
 }
 
 .footer-soc-icon {
@@ -589,9 +582,7 @@ background-color: ;
 .portfolio-btn:is(:hover, :focus) {
   background-color: var(--color-hover);
   color: var(--color-body);
-}
-
-.link {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);;
 }
 
 .gallery-border {
