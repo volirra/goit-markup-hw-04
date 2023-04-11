@@ -170,8 +170,8 @@ body {
   padding-bottom: 188px;
   max-width: 1440px;
   margin-left: auto;
-  margin-left: auto;
-}
+  margin-right: auto;
+ }
 
 .hero-title {
   font-weight: 700;
@@ -197,9 +197,7 @@ body {
   display: block;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  flex-direction: row;
   padding: 16px 32px;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -321,7 +319,6 @@ body {
 }
 
 .team-title-person {
-  align-items: center;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -330,6 +327,8 @@ body {
 .team-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-text {
@@ -361,11 +360,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
 
 .team-soc-link:hover,
 .team-soc-lin:focus {
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
 .team-soc-icon {
@@ -395,7 +396,7 @@ margin-bottom: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
    
 }
 .customers-item {
@@ -414,9 +415,9 @@ margin-bottom: 72px;
 }
 
 .customers-link:hover, 
-.customers-link:focus{
-  border-color: 1px colid #404bbf;
-  fill: #404bbf;
+.customers-link:focus {
+  fill: var(--color-hover);
+  border: 1px colid #404bbf;
 }
 
 /*-----Footer-----*/
