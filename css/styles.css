@@ -364,7 +364,7 @@ body {
 }
 
 .team-soc-link:hover,
-:focus {
+.team-soc-lin:focus {
   background-color: #404bbf;
 }
 
@@ -507,7 +507,7 @@ gap: 16px;
 }
 
 .footer-soc-link:hover,
-:focus {
+.footer-soc-link:focus {
 background-color: #31d031aa;
 fill: var(--color-cloud);
 }
