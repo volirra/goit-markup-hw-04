@@ -417,7 +417,7 @@ margin-bottom: 72px;
 .customers-link:hover, 
 .customers-link:focus {
   fill: var(--color-hover);
-  border: 1px colid #404bbf;
+  border: 1px solid #404bbf;
 }
 
 /*-----Footer-----*/
