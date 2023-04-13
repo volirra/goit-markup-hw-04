@@ -89,16 +89,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-footer);
-  margin-right: 76px;
 }
 
+.header-logo-web {
+  margin-right: 76px;
+}
 .header-navigation-item {
   margin-right: 40px;
 }
 
 .header-navigation-list {
   display: flex;
-}
+ }
 
 .header-container {
   display: flex;
@@ -147,9 +149,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-hover);
-}
-
-.header-span {
 }
 
 /*-----Hero-----*/
@@ -364,7 +363,7 @@ body {
 }
 
 .team-soc-link:hover,
-.team-soc-lin:focus {
+.team-soc-link:focus {
   background-color: #404bbf;
   fill: #f4f4fd;
 }
